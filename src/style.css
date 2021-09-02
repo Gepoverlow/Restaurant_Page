@@ -1,0 +1,25 @@
+/* #content {
+  background: url(".mainpage.jpg");
+} */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#content {
+  /* The image used */
+  background-image: url("barbeque.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
