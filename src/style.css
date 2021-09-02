@@ -11,14 +11,9 @@ body {
   height: 100%;
 }
 
-#content {
-  /* The image used */
+body {
   background-image: url("barbeque.jpg");
-
-  /* Full height */
   height: 100%;
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
