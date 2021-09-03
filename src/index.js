@@ -1,9 +1,5 @@
 import "./style.css";
-// import Icon from "./icon.jpg";
 
-// const container = document.getElementById("content");
+import { homePage } from "./homeModule";
 
-// const myIcon = new Image();
-// myIcon.src = Icon;
-
-// document.body.appendChild(myIcon);
+homePage();
