@@ -1,10 +1,11 @@
 import "./style.css";
 
+import { initialHomePage } from "./initialHomeModule";
 import { homePage } from "./homeModule";
 import { menuPage } from "./menuModule";
 
 window.addEventListener("load", function () {
-  homePage();
+  initialHomePage();
 
   let content = document.getElementById("content");
 
@@ -12,13 +13,17 @@ window.addEventListener("load", function () {
   let menuBtn = document.getElementById("menuBtn");
   let contactBtn = document.getElementById("contactBtn");
 
-  homeBtn.addEventListener("click", function () {});
+  homeBtn.addEventListener("click", function () {
+    content.removeChild(content.lastChild);
+    homePage();
+  });
   menuBtn.addEventListener("click", function () {
-    let contentMainHome = document.getElementById("content-main-home");
-
-    content.removeChild(contentMainHome);
+    content.removeChild(content.lastChild);
     menuPage();
   });
-
   contactBtn.addEventListener("click", function () {});
 });
+
+// while (content.hasChildNodes()) {
+//     content.removeChild(content.lastChild);
+//   }
