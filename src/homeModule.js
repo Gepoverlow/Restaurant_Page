@@ -16,6 +16,9 @@ function homePage() {
   home.innerHTML = "HOME";
   menu.innerHTML = "MENU";
   contact.innerHTML = "CONTACT";
+  home.id = "homeBtn";
+  menu.id = "menuBtn";
+  contact.id = "contactBtn";
   nav.appendChild(home);
   nav.appendChild(menu);
   nav.appendChild(contact);
@@ -39,4 +42,5 @@ function homePage() {
   paragraph.innerHTML =
     "In Argentina, asado is everything. The factor that brings the family together on Sundays, and friends some night of the week. The Argentine barbecue is a cult, a ritual, something much bigger than a simple meal.";
 }
+
 export { homePage };
