@@ -1,25 +1,6 @@
 function menuPage() {
   let content = document.getElementById("content");
 
-  //   ////// NAV
-  //   let contentNav = document.createElement("div");
-  //   contentNav.id = "content-nav";
-  //   content.appendChild(contentNav);
-  //   //// UL
-  //   let nav = document.createElement("ul");
-  //   nav.id = "nav";
-  //   contentNav.appendChild(nav); //
-  //   // LI
-  //   let home = document.createElement("li");
-  //   let menu = document.createElement("li");
-  //   let contact = document.createElement("li");
-  //   home.innerHTML = "HOME";
-  //   menu.innerHTML = "MENU";
-  //   contact.innerHTML = "CONTACT";
-  //   nav.appendChild(home);
-  //   nav.appendChild(menu);
-  //   nav.appendChild(contact);
-
   //////// MAIN
   let contentMainMenu = document.createElement("div");
   contentMainMenu.id = "content-main-menu";
@@ -52,17 +33,38 @@ function menuPage() {
 
   dishFactory(
     "Choripan",
-    "Grilled chorizo ​​between two pieces of bread, typical of Argentine cuisine. ",
+    "Choripán is a meal that basically consists of a grilled chorizo ​​between two pieces of bread, typical of Argentine cuisine.",
     "../src/choripan.jpg"
   );
-  dishFactory("Beef", "Bla, Bla, Bla", "../src/beef.jpg");
-  dishFactory("Morcilla", "Bla, Bla, Bla", "../src/morcilla.jpg");
-  dishFactory("Grilled Pork", "Bla, Bla, Bla", "../src/grilledpork.jpg");
-  dishFactory("Mollejas", "Bla, Bla, Bla", "../src/mollejas.jpg");
-  dishFactory("Sunday Salad", "Bla, Bla, Bla", "../src/Ensalada.jpg");
+  dishFactory(
+    "Bife",
+    "Grilled or charcoal-grilled cut of beef. Traditionally it is accompanied with some hot sauce, guacamole, beans and tortillas",
+    "../src/beef.jpg"
+  );
+  dishFactory(
+    "Morcilla",
+    "It can be consumed raw, roasted, grilled or fried and as a main dish, it is usually accompanied by piquillo peppers.",
+    "../src/morcilla.jpg"
+  );
+  dishFactory(
+    "Puerco al Gril",
+    "Prepared either indoors or outdoors, juicy pork ribs are always a treat. There are two types of pork ribs, namely spare ribs and baby back ribs.",
+    "../src/grilledpork.jpg"
+  );
+  dishFactory(
+    "Mollejas",
+    "The sweetbreads are in the Argentine barbecue where they have their place of honor and are the expression of a true national passion.",
+    "../src/mollejas.jpg"
+  );
+  dishFactory(
+    "Ensalada Mixta",
+    "It's important to eat a variety of fresh fruits and vegetables, in as many different colors as possible. Combining them in a salad is both easy and delicious!",
+    "../src/ensaladaMixta.jpg"
+  );
 }
 export { menuPage };
 
 //   let pictureTest = document.createElement("img");
 //   pictureTest.src = "../src/beef.jpg";
 //   contentMainMenu.appendChild(pictureTest);
+// Grilled chorizo ​​between two pieces of bread, typical of Argentine cuisine.
