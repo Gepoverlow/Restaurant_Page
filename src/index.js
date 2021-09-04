@@ -1,5 +1,6 @@
 import "./style.css";
 
 import { homePage } from "./homeModule";
+import { menuPage } from "./menuModule";
 
-homePage();
+// window.addEventListener("load", menuPage);
