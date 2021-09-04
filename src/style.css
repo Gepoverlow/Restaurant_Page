@@ -120,3 +120,12 @@ h4 {
 #dishSix {
   padding: 10px;
 } */
+
+#content-menu > div {
+  background-color: rgba(58, 50, 50, 0.6);
+  padding: 10px;
+}
+
+#content-menu > div > h4 {
+  float: inline-end;
+}

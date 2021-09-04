@@ -50,7 +50,11 @@ function menuPage() {
     dish.appendChild(dishI);
   }
 
-  dishFactory("Choripan", "Bla, Bla, Bla", "../src/choripan.jpg");
+  dishFactory(
+    "Choripan",
+    "Grilled chorizo ​​between two pieces of bread, typical of Argentine cuisine. ",
+    "../src/choripan.jpg"
+  );
   dishFactory("Beef", "Bla, Bla, Bla", "../src/beef.jpg");
   dishFactory("Morcilla", "Bla, Bla, Bla", "../src/morcilla.jpg");
   dishFactory("Grilled Pork", "Bla, Bla, Bla", "../src/grilledpork.jpg");
