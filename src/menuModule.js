@@ -34,32 +34,32 @@ function menuPage() {
   dishFactory(
     "Choripan",
     "Choripán is a meal that basically consists of a grilled chorizo ​​between two pieces of bread, typical of Argentine cuisine.",
-    "../src/choripan.jpg"
+    "../src/images/choripan.jpg"
   );
   dishFactory(
     "Bife",
     "Grilled or charcoal-grilled cut of beef. Traditionally it is accompanied with some hot sauce, guacamole, beans and tortillas",
-    "../src/beef.jpg"
+    "../src/images/beef.jpg"
   );
   dishFactory(
     "Morcilla",
     "It can be consumed raw, roasted, grilled or fried and as a main dish, it is usually accompanied by piquillo peppers.",
-    "../src/morcilla.jpg"
+    "../src/images/morcilla.jpg"
   );
   dishFactory(
     "Puerco al Gril",
     "Prepared either indoors or outdoors, juicy pork ribs are always a treat. There are two types of pork ribs, namely spare ribs and baby back ribs.",
-    "../src/grilledpork.jpg"
+    "../src/images/grilledpork.jpg"
   );
   dishFactory(
     "Mollejas",
     "The sweetbreads are in the Argentine barbecue where they have their place of honor and are the expression of a true national passion.",
-    "../src/mollejas.jpg"
+    "../src/images/mollejas.jpg"
   );
   dishFactory(
     "Ensalada Mixta",
     "It's important to eat a variety of fresh fruits and vegetables, in as many different colors as possible. Combining them in a salad is both easy and delicious!",
-    "../src/ensaladaMixta.jpg"
+    "../src/images/ensaladaMixta.jpg"
   );
 }
 export { menuPage };

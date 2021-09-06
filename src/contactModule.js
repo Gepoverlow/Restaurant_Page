@@ -31,8 +31,14 @@ function contactPage() {
   contactInfo.appendChild(infoMail);
 
   let aplauso = document.createElement("img");
-  aplauso.src = "../src/aplauso.jpg";
+  aplauso.src = "../src/images/aplauso.jpg";
   contactInfo.appendChild(aplauso);
+
+  let aplausoInfo = document.createElement("p");
+  aplausoInfo.id = "aplauso-info";
+  aplausoInfo.innerHTML =
+    "This means a clap for the chef, tradition after a great meal!";
+  contactInfo.appendChild(aplausoInfo);
 }
 
 export { contactPage };

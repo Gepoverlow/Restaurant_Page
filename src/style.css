@@ -12,7 +12,7 @@ body {
 }
 
 body {
-  background-image: url("barbeque.jpg");
+  background-image: url("/home/luk/Desktop/the_odin_project/Restuarant-Page/src/images/barbeque.jpg");
   height: 100%;
   background-position: center;
   background-repeat: inherit;
@@ -46,24 +46,30 @@ img {
 }
 #nav li {
   display: inline;
-  font-size: 20px;
+  font-size: 2vh;
   /* padding: 20px; */
   cursor: pointer;
-  margin-left: 10px;
+  margin-left: 15px;
+}
+
+#nav li:hover {
+  color: lightgray;
+  text-decoration: underline;
 }
 #nav {
   color: blanchedalmond;
   display: flex;
   justify-content: space-evenly;
-  padding-left: 20px;
+  padding-left: 15px;
   /* width: 100%;
   max-width: 400px; */
 }
 
 #restaurant-name {
   color: blanchedalmond;
-  font-size: 30px;
+  font-size: 4vh;
   padding-right: 20px;
+  margin-left: 20px;
 }
 
 /* ------------------------------------ HOME ---------------------------------- */
@@ -81,8 +87,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  max-height: 700px;
-  max-width: 400px;
+  width: 100%;
+  max-width: 350px;
   background-color: rgba(58, 50, 50, 0.6);
   border-radius: 1%;
   padding: 10px;
@@ -92,6 +98,8 @@ img {
 }
 
 #title-home {
+  margin: 0 auto;
+  text-align: center;
   font-size: 5vh;
   color: blanchedalmond;
 }
@@ -187,5 +195,7 @@ img {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
   align-items: center;
 }
