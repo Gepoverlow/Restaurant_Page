@@ -37,24 +37,33 @@ img {
 
 #content-nav {
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
+  align-items: center;
   background-color: rgba(58, 50, 50, 0.6);
   width: 100%;
   margin: 0;
   height: auto;
-  padding: 5px;
-  /* border: 2px solid rgba(61, 57, 57, 0.6); */
 }
 #nav li {
   display: inline;
   font-size: 20px;
-  padding: 20px;
+  /* padding: 20px; */
+  cursor: pointer;
+  margin-left: 10px;
 }
 #nav {
   color: blanchedalmond;
   display: flex;
   justify-content: space-evenly;
-  min-width: 400px;
+  padding-left: 20px;
+  /* width: 100%;
+  max-width: 400px; */
+}
+
+#restaurant-name {
+  color: blanchedalmond;
+  font-size: 30px;
+  padding-right: 20px;
 }
 
 /* ------------------------------------ HOME ---------------------------------- */
@@ -103,11 +112,24 @@ img {
   color: blanchedalmond;
 }
 
+@media (min-width: 600px) {
+  #content-menu {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  #content-menu {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 #content-menu {
   display: grid;
   /* grid-template-columns: repeat(auto-fill, minmax(299px, 1fr)); */
-  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, 1fr); */
   grid-gap: 20px;
+  overflow: auto;
 }
 
 /* #dishOne,

@@ -8,7 +8,12 @@ function initialHomePage() {
   //// UL
   let nav = document.createElement("ul");
   nav.id = "nav";
-  contentNav.appendChild(nav); //
+  contentNav.appendChild(nav);
+  // NAME
+  let restaurantName = document.createElement("div");
+  restaurantName.id = "restaurant-name";
+  restaurantName.innerHTML = "GP's Parrilla";
+  contentNav.appendChild(restaurantName);
   // LI
   let home = document.createElement("li");
   let menu = document.createElement("li");
@@ -31,7 +36,7 @@ function initialHomePage() {
   let titleHome = document.createElement("h1");
   titleHome.id = "title-home";
   contentMainHome.appendChild(titleHome);
-  titleHome.innerHTML = "Welcome to La Parrilla";
+  titleHome.innerHTML = "Welcome to GP's Parrilla";
   //// HOME
   let contentHome = document.createElement("div");
   contentHome.id = "content-home";
