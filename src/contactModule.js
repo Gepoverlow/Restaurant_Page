@@ -1,3 +1,5 @@
+import Aplauso from "./images/aplauso.jpg";
+
 function contactPage() {
   let content = document.getElementById("content");
 
@@ -31,7 +33,7 @@ function contactPage() {
   contactInfo.appendChild(infoMail);
 
   let aplauso = document.createElement("img");
-  aplauso.src = "../src/images/aplauso.jpg";
+  aplauso.src = Aplauso;
   contactInfo.appendChild(aplauso);
 
   let aplausoInfo = document.createElement("p");

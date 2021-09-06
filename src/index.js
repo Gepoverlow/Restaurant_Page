@@ -5,6 +5,9 @@ import { homePage } from "./homeModule";
 import { menuPage } from "./menuModule";
 import { contactPage } from "./contactModule";
 
+// var requireContext = require.context("./images", true, /^\.\/.*\.jpg$/);
+// requireContext.keys().map(requireContext);
+
 window.addEventListener("load", function () {
   //
   initialHomePage();

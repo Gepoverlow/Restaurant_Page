@@ -9,7 +9,7 @@ function homePage() {
   let titleHome = document.createElement("h1");
   titleHome.id = "title-home";
   contentMainHome.appendChild(titleHome);
-  titleHome.innerHTML = "Welcome to GP's Parrilla";
+  titleHome.innerHTML = "Welcome to GP's Grill";
   //// HOME
   let contentHome = document.createElement("div");
   contentHome.id = "content-home";
